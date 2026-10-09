@@ -109,7 +109,7 @@
     "@egjs/view360": "4.0.0-beta.7",
     "@embedpdf/snippet": "^2.14.4",
     "@hono/vite-dev-server": "^0.26.1",
-    "@hope-ui/solid": "github:OpenListTeam/hope-ui#31b436e36ae5d266016814ba71a442ffa9d91181",
+    "@hope-ui/solid": "github:OpenListTeam/hope-ui#2f9096bd2d3cb588ac8d3d3379830675b3114aa7",
     "@jellyfin/libass-wasm": "^4.2.4",
     "@monaco-editor/loader": "1.7.0",
     "@solid-primitives/i18n": "^2.2.1",
