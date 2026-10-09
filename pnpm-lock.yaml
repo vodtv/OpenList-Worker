@@ -193,8 +193,8 @@ importers:
         version: 3.25.76
     devDependencies:
       '@crowdin/cli':
-        specifier: ^4.14.3
-        version: 4.15.0
+        specifier: ^4.15.1
+        version: 4.15.1
       '@rolldown/binding-linux-x64-gnu':
         specifier: 1.2.2
         version: 1.2.2
@@ -893,8 +893,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@crowdin/cli@4.15.0':
-    resolution: {integrity: sha512-4hOWF2lUENe+TDYZIpBwCQO5aOe7O1Q7CmQ4Py1uwWtBlN855P3tWwnKpLxoAQ+wUx2jv9bJcZ3xgmeoD2qzkQ==}
+  '@crowdin/cli@4.15.1':
+    resolution: {integrity: sha512-ck64SSRQFVaU8C09d1kti1/fAGQh2EJGPZvEpTQvnf9l/2GCGBc/hJJt8cC1TdPzc+BCnfwHm2cva47eD/kEmw==}
     hasBin: true
 
   '@cspotcode/source-map-support@0.8.1':
@@ -5026,7 +5026,7 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20260730.1':
     optional: true
 
-  '@crowdin/cli@4.15.0':
+  '@crowdin/cli@4.15.1':
     dependencies:
       command-exists-promise: 2.0.2
       node-fetch: 2.7.0
