@@ -235,8 +235,8 @@ importers:
         specifier: ^2.0.5
         version: 2.0.5
       '@vitejs/plugin-legacy':
-        specifier: ^8.1.0
-        version: 8.2.2(terser@5.49.1)(vite@8.2.0(@types/node@24.13.3)(esbuild@0.28.1)(terser@5.49.1)(tsx@4.23.5)(yaml@2.9.0))
+        specifier: ^8.2.3
+        version: 8.2.3(terser@5.49.1)(vite@8.2.0(@types/node@24.13.3)(esbuild@0.28.1)(terser@5.49.1)(tsx@4.23.5)(yaml@2.9.0))
       concurrently:
         specifier: ^10.0.3
         version: 10.0.4
@@ -2144,8 +2144,8 @@ packages:
   '@viselect/vanilla@3.9.0':
     resolution: {integrity: sha512-E9eBgoi/crJ0SlZMAc+Yst7nU324LZ5LLvcXjzWEcrfllscdpTml2OLOKHC7O8Bbz19OybSLv6VexxnjlJrLxQ==}
 
-  '@vitejs/plugin-legacy@8.2.2':
-    resolution: {integrity: sha512-4RpSqLedwx9Ffu2MH3iCadVBIu7Swfr5O6R9SDnzPmBzQ6gyfKgNuQZKlBDYl5dM8XDsR7srPqbjbBgHVUWV3g==}
+  '@vitejs/plugin-legacy@8.2.3':
+    resolution: {integrity: sha512-MMHLsn/0FrBkCQyb1x44cPYGwkfqcGr2FblcEP2ne79aXe7d5tFKoZ09xs5C4wuh8fOu2JRaNhgAS3K3uvUeJA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       terser: ^5.16.0
@@ -6193,7 +6193,7 @@ snapshots:
 
   '@viselect/vanilla@3.9.0': {}
 
-  '@vitejs/plugin-legacy@8.2.2(terser@5.49.1)(vite@8.2.0(@types/node@24.13.3)(esbuild@0.28.1)(terser@5.49.1)(tsx@4.23.5)(yaml@2.9.0))':
+  '@vitejs/plugin-legacy@8.2.3(terser@5.49.1)(vite@8.2.0(@types/node@24.13.3)(esbuild@0.28.1)(terser@5.49.1)(tsx@4.23.5)(yaml@2.9.0))':
     dependencies:
       '@babel/core': 7.29.7
       '@babel/plugin-transform-dynamic-import': 7.29.7(@babel/core@7.29.7)
