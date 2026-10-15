@@ -86,7 +86,7 @@
     "@vitejs/plugin-legacy": "^8.1.0",
     "concurrently": "^10.0.3",
     "cross-env": "^10.1.0",
-    "esbuild": "^0.28.1",
+    "esbuild": "^0.28.2",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.5",
     "mermaid": "^11.16.0",
