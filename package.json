@@ -70,7 +70,7 @@
   "license": "AGPL-3.0",
   "devDependencies": {
     "@crowdin/cli": "^4.14.3",
-    "@rolldown/binding-linux-x64-gnu": "1.2.2",
+    "@rolldown/binding-linux-x64-gnu": "1.2.14",
     "@rolldown/binding-linux-x64-musl": "1.2.2",
     "@rolldown/binding-win32-x64-msvc": "1.2.2",
     "@types/bcryptjs": "^2.4.6",
