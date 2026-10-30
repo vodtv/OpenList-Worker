@@ -202,8 +202,8 @@ importers:
         specifier: 1.2.2
         version: 1.2.2
       '@rolldown/binding-win32-x64-msvc':
-        specifier: 1.2.2
-        version: 1.2.2
+        specifier: 1.2.16
+        version: 1.2.16
       '@types/bcryptjs':
         specifier: ^2.4.6
         version: 2.4.6
@@ -1801,6 +1801,12 @@ packages:
     resolution: {integrity: sha512-4MqEue5re+xIZzAWsB8sj0P1kqZySWqIuN4t6QaIO/YA6SFwySOLruvWQFzfmqk8LBK2P30KCSJwf6mJCZZ5/A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
+    os: [win32]
+
+  '@rolldown/binding-win32-x64-msvc@1.2.16':
+    resolution: {integrity: sha512-1lv1KvX0Z871zfk7vw+dnXMMnHNyDwMzWG8Kv3HxDXMOhzCX4SHc7HK319fInP0i+0p9D8brkfzL7pJOaGl+tw==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
     os: [win32]
 
   '@rolldown/binding-win32-x64-msvc@1.2.2':
@@ -5860,7 +5866,10 @@ snapshots:
   '@rolldown/binding-win32-arm64-msvc@1.2.2':
     optional: true
 
-  '@rolldown/binding-win32-x64-msvc@1.2.2': {}
+  '@rolldown/binding-win32-x64-msvc@1.2.16': {}
+
+  '@rolldown/binding-win32-x64-msvc@1.2.2':
+    optional: true
 
   '@rolldown/pluginutils@1.0.1': {}
 
