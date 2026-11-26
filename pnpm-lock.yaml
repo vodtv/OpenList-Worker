@@ -199,8 +199,8 @@ importers:
         specifier: 1.2.2
         version: 1.2.2
       '@rolldown/binding-linux-x64-musl':
-        specifier: 1.2.2
-        version: 1.2.2
+        specifier: 1.3.4
+        version: 1.3.4
       '@rolldown/binding-win32-x64-msvc':
         specifier: 1.2.2
         version: 1.2.2
@@ -1787,6 +1787,12 @@ packages:
 
   '@rolldown/binding-linux-x64-musl@1.2.2':
     resolution: {integrity: sha512-ZKp/w41n6wCvxzxQHtQSbuphfX3Y4cCvbjkKHusrLx4lh+JWLTU7StSltO/DKARISzbj368d+qUaCjI8K2wzXw==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [linux]
+
+  '@rolldown/binding-linux-x64-musl@1.3.4':
+    resolution: {integrity: sha512-8B+ofyQZ7/aCmkqnyMonPr5zKLqMVNczhRGFNtdIuItiwNn8iQWJawMq2E58r7bxD1XEbtRRsULY/eCWwZQ01Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
@@ -5852,7 +5858,10 @@ snapshots:
 
   '@rolldown/binding-linux-x64-gnu@1.2.2': {}
 
-  '@rolldown/binding-linux-x64-musl@1.2.2': {}
+  '@rolldown/binding-linux-x64-musl@1.2.2':
+    optional: true
+
+  '@rolldown/binding-linux-x64-musl@1.3.4': {}
 
   '@rolldown/binding-openharmony-arm64@1.2.2':
     optional: true
